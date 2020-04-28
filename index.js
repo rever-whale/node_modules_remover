@@ -12,7 +12,8 @@ program
 program.parse(process.argv);
 
 if(!program.path) throw new Error('Please enter a folder path');
-const { path: targetPath, target: targetName } = program.path;
+const { path: targetPath, target: targetName } = program;
+console.log(targetPath);
 const rootPath = getPath(targetPath);
 let count = 0;
 
@@ -57,5 +58,6 @@ function existsPath(path) {
 }
 
 function getPath(pathString) {
-  return path.resolve(__dirname, pathString);
+  const currentPath = process.cwd();
+  return path.resolve(currentPath, pathString);
 }

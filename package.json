@@ -1,11 +1,11 @@
 {
-  "name": "rm-nodemodules",
+  "name": "@rever-whale/remove_node_modules",
   "author": "rever.whale",
   "version": "1.0.0",
   "description": "Delete all node_modules folders in the path.",
   "main": "dist/bundle.js",
   "bin": {
-    "rm-nodemodules": "dist/bundle.js"
+    "rm-n8s": "dist/bundle.js"
   },
   "dependencies": {
     "commander": "^5.1.0",
