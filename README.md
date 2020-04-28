@@ -3,6 +3,6 @@
 Delete all node_modules folders in the path.
 
 ```bash
-npm install -g rm-nodemodules
-rm-nodemodules -p <path>
+npm install -g @rever-whale/remove_node_modules
+remove_n8s -p <path>
 ```
