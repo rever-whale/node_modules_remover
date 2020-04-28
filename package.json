@@ -2,7 +2,7 @@
   "name": "node-modules-remover",
   "version": "1.0.0",
   "description": "Delete all node_modules folders in the path.",
-  "main": "bundle.js",
+  "main": "dist/bundle.js",
   "private": true,
   "dependencies": {
     "commander": "^5.1.0",
