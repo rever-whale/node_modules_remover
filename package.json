@@ -1,7 +1,7 @@
 {
   "name": "@rever-whale/remove_node_modules",
   "author": "rever.whale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delete all node_modules folders in the path.",
   "main": "dist/bundle.js",
   "bin": {
