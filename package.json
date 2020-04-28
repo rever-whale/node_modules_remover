@@ -1,0 +1,27 @@
+{
+  "name": "node-modules-remover",
+  "version": "1.0.0",
+  "description": "Delete all node_modules folders in the path.",
+  "main": "bundle.js",
+  "private": true,
+  "dependencies": {
+    "commander": "^5.1.0",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^2.7.3",
+    "rollup-plugin-babel": "^3.0.7",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "scripts": {
+    "start": "node bundle.js",
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
