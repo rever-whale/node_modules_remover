@@ -7,7 +7,6 @@
   "bin": {
     "npm-dir-remover": "dist/bundle.js"
   },
-  "private": true,
   "dependencies": {
     "commander": "^5.1.0",
     "rimraf": "^3.0.2"
