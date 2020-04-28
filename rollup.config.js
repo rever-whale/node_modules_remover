@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel';
-import {uglify} from 'rollup-plugin-uglify';
+import { uglify } from 'rollup-plugin-uglify';
 import pkg from './package.json';
+import { preserveShebangs } from 'rollup-plugin-preserve-shebangs';
 
 export default {
   input: 'index.js',
@@ -10,6 +11,7 @@ export default {
   },
   plugins: [
     babel(),
-    uglify()
+    uglify(),
+    preserveShebangs()
   ]
 }
