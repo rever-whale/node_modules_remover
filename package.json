@@ -5,7 +5,7 @@
   "description": "Delete all node_modules folders in the path.",
   "main": "dist/bundle.js",
   "bin": {
-    "rm-n8s": "dist/bundle.js"
+    "remove_n8s": "dist/bundle.js"
   },
   "dependencies": {
     "commander": "^5.1.0",
