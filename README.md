@@ -1,8 +1,8 @@
-# Node Modules Remover
+# Remove node_modules
 
 Delete all node_modules folders in the path.
 
 ```bash
-npm install -g npm-dir-remover
-npm-dir-remover -p <path>
+npm install -g rm-nodemodules
+rm-nodemodules -p <path>
 ```
